@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 120vh;
+}
+
+header {
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container {
+    background: url('../images/people.jpg') no-repeat center/cover;
+    height: 600px;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.formulario {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: powderblue;
+    margin: auto;
+    max-width: 250px;
+    padding: 20px;
+}
+
+.formulario h2,
+p {
+    margin-bottom: 15px;
+}
+
+.formulario input,
+select {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.rodape {
+    margin: auto;
+    max-width: 1000px;
+    color: white;
+    background-color: rgb(37, 33, 33);
+    padding: 20px;
+    height: 300px;
+}
+
+.rodape h3,
+p {
+    margin-top: 20px;
+}
+
+#face {
+    float: left;
+    width: 150px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
